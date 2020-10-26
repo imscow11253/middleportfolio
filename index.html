@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>Something</title>
+    <mata charset="utf-8" />
+    <link rel="stylesheet" href="index.css"/>
+  </head>
+  
+  <body>
+    <div class="js-clock">
+      <h1>00:00</h1>
+    </div>
+    <form class ="js-form form">
+      <input type="text" placeholder="What is your name?" />
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+    <form class="js-img">
+      <input type="button" class="my_button button" value="my profile"/>
+    </form>
+    <img class="my_img img" src="/my.jpg">
+    <form class="js-toDoForm">
+      <input type="text" placeholder="write a to do" />
+    </form>
+    <ul class="js-toDoList">
+    </ul>
+    <span class="js-weather"></span>
+    <ul>
+      <a href="https://www.naver.com/"><h2>Go my naver</h2></a>
+    </ul>
+    <ul>
+      <a href="http://www.konkuk.ac.kr/do/Index.do"><h2>Go Konkuk</h2></a>
+    </ul>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>   
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+    <script src="img.js"></script> <!--js 파일은 body태그 가장 아래에 있어야 한다. -->
+  </body>
+
+</html>
